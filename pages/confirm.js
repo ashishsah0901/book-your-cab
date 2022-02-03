@@ -6,7 +6,7 @@ import tw from "tailwind-styled-components";
 import Map from "../components/Map";
 import RideSelector from "../components/RideSelector";
 
-const confirm = () => {
+const Confirm = () => {
   const router = useRouter();
   const { pickup, dropoff } = router.query;
 
@@ -73,7 +73,7 @@ const confirm = () => {
   );
 };
 
-export default confirm;
+export default Confirm;
 
 const Wrapper = tw.div`flex flex-col h-screen`;
 
